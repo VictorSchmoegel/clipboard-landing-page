@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@600&display=swap');
+
+
+:root {
+    --corprimaria1: hsl(171, 66%, 44%);
+    --corprimaria2:  hsl(233, 100%, 69%);
+    --corneutra1:  hsl(210, 10%, 33%);
+    --corneutra2:  hsl(201, 11%, 66%);
+
+    --fontepadrao: Arial, Verdana, Helverica, sans-serif;
+    --fontebody: Font size: 18px;
+    --fonteprojeto: 'Bai Jamjuree', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body {
+    font-family: var(--fonteprojeto);
+    font-size: 18px;
+    background-color: grey;
+}
+
+header {
+    background-image: url(/images/bg-header-desktop.png);
+    text-align: center;
+}
+
+h1 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#header-text {
+    color: var(--corneutra2);
+}
+
+#header-text {
+    padding-bottom: 20px;
+}
+
+.ios-button {
+    background-color: var(--corprimaria1);
+    padding: 10px;
+    border-radius: 20px;
+    color: var(--corneutra2);
+    font-weight: bolder;
+    border-style: none;
+}
+
+.mac-button {
+    background-color: var(--corprimaria2);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bolder;
+    border-style: none;
+}
+
+.sec-one {
+    text-align: center;
+}
+
+h2 {
+    padding: 100px 20px 20px 20px;
+    text-align: center;
+}
+
+.sec-two {
+    display: flex;
+    margin: 50px 0px;
+}
+
+.sec-two img {
+    width: 65%;
+}
+
+.topics {
+    display: grid;
+    grid-column: auto;
+    margin: 50px;
+    max-width: 400px;
+}
+
+.sec-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sec-three-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sec-three img {
+    width: 50%;
+}
