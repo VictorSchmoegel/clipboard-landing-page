@@ -91,8 +91,8 @@ h2 {
 
 .sec-three {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    text-align: center;
 }
 
 .sec-three-div {
@@ -101,6 +101,49 @@ h2 {
     justify-content: center;
 }
 
-.sec-three img {
-    width: 50%;
+#classe {
+    width: 80%;
+    margin: auto;
 }
+
+.sec-three img {
+    padding-top: 30px;
+}
+
+.sec-four {
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+
+.sec-four-div {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+}
+
+.imagem-sec-four {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.sec-four-div h3{
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.sec-four-div p{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
