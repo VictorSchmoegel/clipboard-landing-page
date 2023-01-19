@@ -142,8 +142,15 @@ h2 {
 }
 
 .logos {
+    display: inline;
+    text-align: center;
+}
+
+.logo-div {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding-top: 100px;
+    margin: auto;
 }
 
