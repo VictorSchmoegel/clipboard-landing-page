@@ -49,7 +49,7 @@ h1 {
     background-color: var(--corprimaria1);
     padding: 10px;
     border-radius: 20px;
-    color: var(--corneutra2)
+    color: var(--corneutra2);
     font-weight: bolder;
     border-style: none;
 }
@@ -61,4 +61,18 @@ h1 {
     color: white;
     font-weight: bolder;
     border-style: none;
+}
+
+div {
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
+    padding: 20px;
+}
+
+#image-computer {
+    display: flex;
+    right: 500px;
 }
