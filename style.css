@@ -88,3 +88,19 @@ h2 {
     margin: 50px;
     max-width: 400px;
 }
+
+.sec-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sec-three-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sec-three img {
+    width: 50%;
+}
