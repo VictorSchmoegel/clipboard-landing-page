@@ -18,7 +18,8 @@
 
 * {
     margin: 0;
-    padding: 0;   
+    padding: 0;
+    box-sizing: border-box;   
 }
 
 body {
@@ -63,16 +64,27 @@ h1 {
     border-style: none;
 }
 
-div {
+.sec-one {
     text-align: center;
-    justify-content: center;
 }
 
 h2 {
-    padding: 20px;
+    padding: 100px 20px 20px 20px;
+    text-align: center;
 }
 
-#image-computer {
+.sec-two {
     display: flex;
-    right: 500px;
+    margin: 50px 0px;
+}
+
+.sec-two img {
+    width: 65%;
+}
+
+.topics {
+    display: grid;
+    grid-column: auto;
+    margin: 50px;
+    max-width: 400px;
 }
